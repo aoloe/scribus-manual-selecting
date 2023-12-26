@@ -14,7 +14,21 @@ You can then select other items as if you had s.
 
 When you're in edit mode, you can also click on other shapes.
 
-What exactly happens, depends on the type of the origin and target items. The target will at least be selected. Sometimes directly set in edit mode (as an example, if you're editing the text in a text frame, you can click on a specific position in a different text frame and continue the editing from there).
+What exactly happens, depends on the type of the origin and target items. The target will at least be selected. Sometimes directly set in edit mode.
+
+This is mostly useful when you're editing some text and you want to continue the editing on a different text frame: you can click on a specific position in the target frame and continue the editing from there.  
+You can even start a new selection.
+
+## Selecting text
+
+- shift key to extend the selection to the cursor place
+- it is not currently possible to accross the frame boundary. For such cases you can use the story editor to select a the text as you wish and apply a limited set of actions to it.
+
+## Selecting multiple items
+
+- Adding and removing items to the selection
+- Using the mouse cursor to select all items inside of the select area. The start of the selection must always be on a point where there is no item.
+- Using the cursor with the alt key to select the items touched by the selection area
 
 ## Selecting items hidden behind other items
 
@@ -29,6 +43,16 @@ Example can be:
 - TODO: find a good example where the test is behind
 
 TODO: add an animated gif.
+
+## Grouping items
+
+Sometimes you want to _keep_ a selection: then you can group the select items.
+
+For grouping the selected items, you can use the `ctrl-g` keyboard shortcut (`cmd-g` on Mac) or with _Item > Grouping > Group_.
+
+There are then many actions that you apply to the the group, as if they were one single item (as an example for moving it around).
+
+The group can be released with the `ctrl-shift-g` keyboard shortcut (`cmd-shift-g` on a Mac) or with _Item > Grouping > Ungroup_.
 
 ## Selecting items inside of groups
 
